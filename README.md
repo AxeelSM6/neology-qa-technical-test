@@ -1,22 +1,43 @@
-# Neology - QA Technical Test
+Neology - Prueba Técnica QA
 
-Technical test for the Test Engineer / QA position at Neology.
+Este repositorio contiene mi solución para la prueba técnica de Ingeniero de Pruebas / Tester.
 
-## Project Structure
+La idea fue organizar cada bloque por separado para que sea más fácil revisar los casos de prueba, ejercicios técnicos y preguntas teóricas.
 
-### Block 1 - Test Cases
+Bloque 1 - Casos de prueba
 
-Gherkin scenarios for the mobility application, including mobile applications, backend and back-office integration.
+En esta sección se encuentran los escenarios escritos en Gherkin para los diferentes casos de uso solicitados.
 
-### Block 2 - Technical Exercises
+Se consideraron principalmente:
+- Registro de usuarios en iOS y Android.
+- Reporte de transacciones desde dispositivos móviles.
+- Integración entre aplicaciones móviles, backend y Back Office.
+- Consulta de historial de transacciones.
+- Pruebas de rendimiento.
+- Actualización y sincronización de estados de transacciones.
 
-* Java palindrome validation
-* Appium XPath locators
+Bloque 2 - Ejercicios técnicos
 
-### Block 3 - QA Knowledge
+Incluye:
+- Programa en Java para validar si una palabra es un palíndromo.
+- Ejemplos de identificadores XPath para Appium.
 
-Answers related to software testing methodologies, bug management, Agile testing, automation, and functional/non-functional testing.
+En los ejercicios técnicos agregué algunos comentarios sobre las decisiones tomadas y las herramientas utilizadas como apoyo cuando fue necesario.
 
-## Approach
+Bloque 3 - Preguntas abiertas
 
-The test cases and answers in this repository are based on functional testing principles, risk analysis, integration validation, negative testing, and exploratory thinking where applicable.
+En esta sección respondí las preguntas relacionadas con:
+- Pruebas de carga y estrés.
+- Manejo y seguimiento de bugs.
+- Severidad y prioridad.
+- Testing Ágil.
+- Pruebas funcionales y no funcionales.
+- Automatización de pruebas.
+- Herramientas de testing.
+- Casos donde no conviene automatizar.
+
+Notas
+
+Intenté mantener las respuestas enfocadas en situaciones reales de QA y evitar asumir comportamientos o reglas que no estuvieran especificadas en los requerimientos.
+
+Cuando el requerimiento dejaba espacio a interpretación, prioricé validar el comportamiento esperado del sistema y la integración entre sus diferentes componentes.
